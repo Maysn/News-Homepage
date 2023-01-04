@@ -1,0 +1,32 @@
+.nav-links {
+       
+}
+
+@media only screen and (max-width: 991px){
+    .nav-links {
+        display: none;
+    }
+}
+.nav-links > a {
+    text-decoration: none;
+    color: var(--Dark-grayish-blue);
+}
+
+.nav-links > a:hover {
+    color: var(--Soft-red);
+}
+
+.nav-links > a:not(:last-child){
+    margin-right: 2rem;
+}
+
+@media only screen and (min-width: 1440px){
+    .nav-links > a {
+        font-size: 1rem;
+        
+    }
+
+    .nav-links > a:not(:last-child){
+        margin-right: 2.7rem;
+    }
+}
